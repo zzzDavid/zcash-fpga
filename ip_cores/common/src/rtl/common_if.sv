@@ -195,8 +195,8 @@ interface if_axi_lite # (
                   output awaddr, awvalid, wdata, wstrb, wvalid, bready, araddr, arvalid, rready,
                   import task reset_source(), 
                  // import task put_data_multiple(data, addr, len), 
-                  import task poke(data, addr), 
-                  import task peek(data, addr));
+                  import task poke(input data, input addr), 
+                  import task peek(output data, input addr));
 
   task reset_source();
     awaddr <= 0;

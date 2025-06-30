@@ -39,7 +39,7 @@ module zcash_fpga_top
 );
 
 localparam CTL_BITS = 8;
-localparam USE_XILINX_FIFO = "YES"; // If you use this make sure you generate the ip folder in aws/cl_zcash/ip
+localparam USE_XILINX_FIFO = "NO"; // If you use this make sure you generate the ip folder in aws/cl_zcash/ip
 
 // These are the resets combined with the user reset
 logic usr_rst_100, rst_100;

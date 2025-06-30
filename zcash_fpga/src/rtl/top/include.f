@@ -5,6 +5,7 @@ ${ZCASH_DIR}/zcash_fpga/src/rtl/top/zcash_fpga_pkg.sv
 ${ZCASH_DIR}/ip_cores/common/src/rtl/common_pkg.sv
 
 ${ZCASH_DIR}/ip_cores/common/src/rtl/common_if.sv
+${ZCASH_DIR}/ip_cores/common/src/rtl/axis_dwidth_converter.sv
 ${ZCASH_DIR}/ip_cores/common/src/rtl/synchronizer.sv
 ${ZCASH_DIR}/ip_cores/common/src/rtl/pipeline_if_single.sv
 ${ZCASH_DIR}/ip_cores/common/src/rtl/pipeline_if.sv

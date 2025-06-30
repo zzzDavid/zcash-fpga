@@ -15,7 +15,7 @@ if { $::argc > 0 } {
       "--help"           { 
         puts "Usage: vivado -mode tcl -source synth_zcash_fpga_top.tcl -tclargs \[OPTIONS\]"
         puts "Options:"
-        puts "  --part <part_name>      : Set the target FPGA part (default: xcvu9p-flga2104-2L-e)"
+        puts "  --part <part_name>      : Set the target FPGA part (default: xcv80-lsva4737-2MHP-e-S)"
         puts "  --output_dir <path>     : Set the output directory (default: ./synth_output)"
         puts "  --help                  : Show this help message"
         return 0
