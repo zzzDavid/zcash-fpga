@@ -2,3 +2,5 @@ vivado*
 .Xil
 .gen
 .vscode
+synth_output
+*.txt
